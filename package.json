@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress-run-cucumber": "cypress run --config-file cypress/cypress-cucumber.json",
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "author": "Lokesh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/features/step_definitions/**/"
+ }
+}

@@ -1,0 +1,7 @@
+
+  {
+    "projectId": "rcfa18",
+    "chromeWebSecurity": true,
+    "testFiles": "**/*.{feature,features}"
+  }
+
