@@ -17,6 +17,6 @@
     "cucumber": "^7.0.0-rc.0"
   },
   "cypress-cucumber-preprocessor": {
-    "step_definitions": "cypress/integration/features/step_definitions/**/"
+    "nonGlobalStepDefinitions": true
  }
 }
